@@ -1,0 +1,19 @@
+{
+  "name": "dsagen-server",
+  "version": "1.0.0",
+  "description": "DSA Practice Platform - Backend API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.5.0",
+    "uuid": "^10.0.0"
+  }
+}
